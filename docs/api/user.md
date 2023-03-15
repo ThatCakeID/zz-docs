@@ -1,6 +1,9 @@
 # User
 
-### `GET /api/v1/user/me`
+!!! warning
+    The `/api/v1/user/*` endpoints are still under heavy development and breaking changes are to be expected.
+
+### `GET /api/v1/user/@me`
 
 Get the currently logged-in user.
 
