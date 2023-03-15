@@ -1,0 +1,42 @@
+site_name: ZryteZene's Docs
+
+copyright: Copyright &copy; 2023 ThatCakeID
+
+theme:
+  name: material
+  icon:
+    logo: material/music-note-outline
+  palette:
+    - scheme: purple
+      media: "(prefers-color-scheme: light)"
+      primary: blue
+      accent: pink
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
+    - scheme: slate
+      media: "(prefers-color-scheme: dark)"
+      primary: blue
+      accent: pink
+      toggle:
+        icon: material/lightbulb
+        name: Switch to light mode
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+extra:
+  version:
+    provider: mike
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/ThatCakeID
+      name: Discord
+    - icon: fontawesome/brands/github
+      link: https://github.com/ThatCakeID
+      name: GitHub
