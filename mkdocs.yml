@@ -1,6 +1,8 @@
 site_name: ZryteZene's Docs
 site_description: Documentation for ZryteZene's api.
 
+site_url: https://thatcakeid.github.io/zz-docs
+
 repo_url: https://github.com/ThatCakeID/zz-docs
 repo_name: ThatCakeID/zz-docs
 
@@ -10,6 +12,7 @@ copyright: Copyright &copy; 2023 ThatCakeID
 
 nav:
   - Home: index.md
+  - Contributing: contributing.md
   - API:
     - Version: api/version.md
     - Auth: api/auth.md
