@@ -6,7 +6,6 @@ As for the documentation, if you feel something is missing you can always open a
 
 Open-Source repositories:
 
-- [ThatCakeID/zz-android-old](https://github.com/ThatCakeID/zz-android-old) (Archive)
-- [ThatCakeID/zzcli](https://github.com/ThatCakeID/zzcli) (Most likely an archive)
-
-Last Updated: 2023-03-15 14:00:00 UTC
+- [git.theclasfruit.me/ThatCakeID/zz-cli](https://git.theclashfruit.me/ThatCakeID/zz-cli) (Active)
+- [github.com/ThatCakeID/zz-android-old](https://github.com/ThatCakeID/zz-android-old) (Archive)
+- [github.com/ThatCakeID/zzcli](https://github.com/ThatCakeID/zzcli) (Archive)

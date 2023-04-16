@@ -13,17 +13,20 @@ copyright: Copyright &copy; 2023 ThatCakeID
 nav:
   - Home: index.md
   - Contributing: contributing.md
+  - Awesome: awesome.md
   - API:
     - Version: api/version.md
     - Auth: api/auth.md
     - User: api/user.md
     - Music: api/music.md
+  - 'Offical Apps':
+    - zz-cli: apps/zz-cli.md
 
 theme:
   name: material
   font:
-    text: 'Noto Sans'
-    code: 'Noto Sans Mono'
+    text: 'Outfit'
+    code: 'Roboto Mono'
   icon:
     logo: material/music-note-outline
     repo: fontawesome/brands/github
@@ -42,11 +45,19 @@ theme:
       toggle:
         icon: material/lightbulb
         name: Switch to light mode
+  features:
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
 
 plugins:
   - search
   - social:
       cards_font: 'Noto Sans'
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: datetime
 
 markdown_extensions:
   - pymdownx.emoji:
@@ -75,3 +86,6 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/ThatCakeID
       name: GitHub
+    - icon: fontawesome/brands/git-alt
+      link: https://git.theclashfruit.me/ThatCakeID
+      name: Gitea
